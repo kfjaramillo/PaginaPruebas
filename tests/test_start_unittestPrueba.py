@@ -34,9 +34,6 @@ class FindbyIdName(unittest.TestCase):
 
     # cerrar el driver 
     def tearDown(self):
+        #cierra el navegador  
         self.driver.quit()
-# no es necessaria pero recomendable, asegurarse para asegurarse que es prueba independiente de este modulo
-if _name_=="_master_":
-    unittest.main*()
-#cierra el navegador    
         
